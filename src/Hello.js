@@ -3,7 +3,12 @@ import './Hello.css'
 
 class Hello extends Component{
     render(){
-        return (<h1>aim</h1>);
+        return (
+        <div class="f1 tc">
+            <h1 >aim</h1>
+            <p>Welcome QIm</p>
+        </div>
+        );
     }
 }
 
