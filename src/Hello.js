@@ -6,7 +6,7 @@ class Hello extends Component{
         return (
         <div className="f1 tc">
             <h1 >aim</h1>
-            <p>Welcome QIm</p>
+            <p>{this.props.greeting}</p>
         </div>
         );
     }
