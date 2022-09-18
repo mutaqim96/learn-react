@@ -11,7 +11,7 @@ import reportWebVitals from './reportWebVitals';
 //     <App></App>
 //   </React.StrictMode>
 // );
-ReactDOM.render(apaDia, katMana);
+ReactDOM.render(<h1>Hello Qim</h1>, document.getElementById('root'));
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
