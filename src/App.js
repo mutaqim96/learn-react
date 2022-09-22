@@ -24,7 +24,7 @@ class App extends Component {
             }
         );
 
-        console.log(filteredRobots);
+        
     }
 
     render(){
