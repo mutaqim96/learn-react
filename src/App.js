@@ -15,12 +15,11 @@ class App extends Component {
             robots: [],
             searchfield: ''
         }
-        console.log('constructor');
+        
     }
 
     componentDidMount(){
-        // console.log('check');
-        console.log('componentDidMount');
+        
         this.setState({robots: robots})
     }
 
@@ -34,7 +33,7 @@ class App extends Component {
                 return robots.name.toLowerCase().includes(this.state.searchfield.toLowerCase());
             }
         );
-        console.log('render');
+        
 
 
         return (
