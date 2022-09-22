@@ -15,10 +15,12 @@ class App extends Component {
             robots: [],
             searchfield: ''
         }
+        console.log('1');
     }
 
     componentDidMount(){
         // console.log('check');
+        console.log('2');
         this.setState({robots: robots})
     }
 
