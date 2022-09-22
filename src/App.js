@@ -16,6 +16,10 @@ class App extends Component {
         }
     }
 
+    onSearchChange(event){
+        console.log(event);
+    }
+
     render(){
         return (
             <div className='tc'>
