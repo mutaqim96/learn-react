@@ -20,7 +20,7 @@ class App extends Component {
         console.log(event.target.value);
         const filteredRobots = this.state.robots.filter(
             robots => {
-                return robots.name.toLowerCase().includes(searchfield.toLowerCase());
+                return robots.name.toLowerCase().includes(this.state.searchfield.toLowerCase());
             }
         );
     }
