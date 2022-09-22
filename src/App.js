@@ -4,13 +4,15 @@ import SearchBox from './SearchBox';
 import {robots} from './robots';
 
 const state = {
-    robots: robots,
-    searchfield: ''
+    
 }
 
 class App extends Component {
     constructor(){
-        
+        this.state = {
+            robots: robots,
+            searchfield: ''
+        }
     }
 
     render(){
