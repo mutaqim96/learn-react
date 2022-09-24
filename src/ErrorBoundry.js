@@ -8,6 +8,8 @@ class ErrorBoundry extends Component{
         }
     }
 
+    componentDidCatch()
+
     render(){
         if(this.state.hasError){
             return <h1>Opps tak patut jadi tu </h1>
