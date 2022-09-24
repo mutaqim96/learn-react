@@ -37,7 +37,9 @@ class App extends Component {
         );
         
 
-
+        if(robots.length === 0){
+            return <h1>Loading</h1>
+        }else{
         return (
             <div className='tc'>
                 <h1 className='f1'>Robo Friends</h1>
@@ -46,6 +48,7 @@ class App extends Component {
             </div>
             
         );
+        }
     }
     }
     
