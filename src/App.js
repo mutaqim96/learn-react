@@ -29,6 +29,13 @@ function App() {
         
     // }
 
+    //replicate atas
+    useEffect(()=> {
+        fetch('https://jsonplaceholder.typicode.com/users')
+        .then(response =>  response.json())
+        .then(users => this.setState({robots:users}))
+    });
+
     const onSearchChange = (event) => {
         setSearchField(event.target.value);              
     }
