@@ -9,14 +9,14 @@ import './App.css';
 // }
 
 function App() {
-    constructor(){
-        super()
-        this.state = {
-            robots: [],
-            searchfield: ''
-        }
+    // constructor(){
+    //     super()
+    //     this.state = {
+    //         robots: [],
+    //         searchfield: ''
+    //     }
         
-    }
+    // }
 
     componentDidMount(){
         fetch('https://jsonplaceholder.typicode.com/users')
