@@ -20,6 +20,7 @@ function App() {
 
     //declare constant dan sini kita buat array distructuring
     const [robots, setRobots] = useState([])
+    const [searchfield, setSearchField] = useState('');
 
     // componentDidMount(){
     //     fetch('https://jsonplaceholder.typicode.com/users')
