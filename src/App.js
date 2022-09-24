@@ -8,7 +8,7 @@ import './App.css';
     
 // }
 
-class App extends Component {
+function App() {
     constructor(){
         super()
         this.state = {
