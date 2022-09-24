@@ -30,7 +30,7 @@ function App() {
     // }
 
     const onSearchChange = (event) => {
-        setSearchField({searchfield: event.target.value});              
+        setSearchField(event.target.value);              
     }
 
     
