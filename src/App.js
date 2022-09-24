@@ -18,6 +18,9 @@ function App() {
         
     // }
 
+    //declare constant dan sini kita buat array distructuring
+    const [robots, setRobots] = useState([])
+
     // componentDidMount(){
     //     fetch('https://jsonplaceholder.typicode.com/users')
     //     .then(response =>  response.json())
