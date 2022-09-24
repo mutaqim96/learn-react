@@ -47,7 +47,9 @@ function App() {
                 <h1 className='f1'>Robo Friends</h1>
                 <button onClick={() => setCount(count + 1)}>Click Me</button>
                 <SearchBox searchChange={onSearchChange}/>
+                <ErrorBoundry>
                 <CardList robots={filteredRobots}/>
+                </ErrorBoundry>
             </div>
             
         );
