@@ -43,7 +43,7 @@ function App() {
         return (
             <div className='tc'>
                 <h1 className='f1'>Robo Friends</h1>
-                <button onClick={() => setCount}>Click Me</button>
+                <button onClick={() => setCount(count + 1)}>Click Me</button>
                 <SearchBox searchChange={onSearchChange}/>
                 <CardList robots={filteredRobots}/>
             </div>
