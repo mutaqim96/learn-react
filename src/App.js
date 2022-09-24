@@ -34,9 +34,9 @@ function App() {
     }
 
     
-        const filteredRobots = this.state.robots.filter(
-            robots => {
-                return robots.name.toLowerCase().includes(this.state.searchfield.toLowerCase());
+        const filteredRobots = robots.filter(
+            robot => {
+                return robot.name.toLowerCase().includes(searchfield.toLowerCase());
             }
         );
         
