@@ -33,7 +33,7 @@ function App() {
     useEffect(()=> {
         fetch('https://jsonplaceholder.typicode.com/users')
         .then(response =>  response.json())
-        .then(users => setState({robots:users}))
+        .then(users => setRobots(users))
     });
 
     const onSearchChange = (event) => {
