@@ -7,6 +7,10 @@ class ErrorBoundry extends Component{
             hasError: false,
         }
     }
+
+    render(){
+        
+    }
 }
 
 export default ErrorBoundry;
