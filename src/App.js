@@ -29,7 +29,7 @@ function App() {
         this.setState({searchfield: event.target.value});              
     }
 
-    render(){
+    
         const filteredRobots = this.state.robots.filter(
             robots => {
                 return robots.name.toLowerCase().includes(this.state.searchfield.toLowerCase());
@@ -49,7 +49,7 @@ function App() {
             
         );
         }
-    }
+    
     }
     
 
