@@ -34,7 +34,7 @@ function App() {
         fetch('https://jsonplaceholder.typicode.com/users')
         .then(response =>  response.json())
         .then(users => setRobots(users))
-    }, [searchfield]);
+    }, []);
 
     const onSearchChange = (event) => {
         setSearchField(event.target.value);              
