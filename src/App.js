@@ -9,27 +9,15 @@ import './App.css';
 // }
 
 function App() {
-    // constructor(){
-    //     super()
-    //     this.state = {
-    //         robots: [],
-    //         searchfield: ''
-    //     }
-        
-    // }
+    
 
-    //declare constant dan sini kita buat array distructuring
+    //declare constant dan sini kita buat array distructuring kita declare state 
     const [robots, setRobots] = useState([])
     const [searchfield, setSearchField] = useState('');
 
-    // componentDidMount(){
-    //     fetch('https://jsonplaceholder.typicode.com/users')
-    //     .then(response =>  response.json())
-    //     .then(users => this.setState({robots:users}))
-        
-    // }
+    
 
-    //replicate atas
+    //replicate componentDidMount
     useEffect(()=> {
         fetch('https://jsonplaceholder.typicode.com/users')
         .then(response =>  response.json())
