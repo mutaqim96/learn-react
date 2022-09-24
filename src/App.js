@@ -25,7 +25,7 @@ function App() {
         
     // }
 
-    onSearchChange = (event) => {
+    const onSearchChange = (event) => {
         this.setState({searchfield: event.target.value});              
     }
 
