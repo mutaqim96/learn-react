@@ -12,6 +12,7 @@ class ErrorBoundry extends Component{
         if(this.state.hasError){
             return <h1>Opps tak patut jadi tu </h1>
         }
+        return this.props.children
     }
 }
 
