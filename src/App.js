@@ -1,6 +1,7 @@
 import React, { useState , useEffect } from 'react';
 import CardList from './CardList';
 import SearchBox from './SearchBox';
+import ErrorBoundry from './ErrorBoundry';
 
 import './App.css';
 
