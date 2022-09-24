@@ -22,7 +22,8 @@ function App() {
     useEffect(()=> {
         fetch('https://jsonplaceholder.typicode.com/users')
         .then(response =>  response.json())
-        .then(users => setRobots(users))
+        .then(users => setRobots(users));
+        console.log(count)
     }, []);
 
     const onSearchChange = (event) => {
