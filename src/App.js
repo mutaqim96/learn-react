@@ -14,6 +14,7 @@ function App() {
     //declare constant dan sini kita buat array distructuring kita declare state 
     const [robots, setRobots] = useState([])
     const [searchfield, setSearchField] = useState('');
+    const [count, setCount] = useState(0);
 
     
 
@@ -42,6 +43,7 @@ function App() {
         return (
             <div className='tc'>
                 <h1 className='f1'>Robo Friends</h1>
+                <button onClick={setCount}>Click Me</button>
                 <SearchBox searchChange={onSearchChange}/>
                 <CardList robots={filteredRobots}/>
             </div>
