@@ -24,7 +24,7 @@ function App() {
         .then(response =>  response.json())
         .then(users => setRobots(users));
         console.log(count)
-    }, []);
+    }, [count]);
 
     const onSearchChange = (event) => {
         setSearchField(event.target.value);              
